@@ -279,8 +279,8 @@ def show_png(filename, x=0, y=0):
     print(f"旋转后的图像已显示: 宽度={rotated_w}, 高度={rotated_h}")
 
 # WiFi 配置
-WIFI_SSID = "19-1"
-WIFI_PASSWORD = "XJNmama800212"
+WIFI_SSID = ""
+WIFI_PASSWORD = ""
 
 # 连接到 WiFi
 def connect_wifi():
@@ -360,3 +360,4 @@ if 'tft' in locals():
         print(f"显示测试失败: {e}")
 else:
     print("显示屏未初始化成功")
+
